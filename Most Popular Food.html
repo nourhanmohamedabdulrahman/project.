@@ -1,0 +1,780 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Free Web tutorials">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+
+<style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {margin: 0;
+font-color:#000000;
+
+}
+ul.sidenav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+     background-image: linear-gradient(to bottom right,#F88017,#ffffff		);
+  top: 0;
+  width: 100%;
+}
+
+ul.sidenav li {
+  float: left;
+}
+
+ul.sidenav li a {
+ display:block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.sidenav li a:hover:not(.active) {
+    background-image: linear-gradient(to bottom right,#ffffff	,#F88017	);
+
+}
+.active{ background-image: linear-gradient(to bottom right,#ffffff	,#F88017	);}
+/*.content{}*/
+
+ul{  font-family: "Sofia", sans-serif,"Audiowide";}
+div.gallery {
+  border: 1px solid #ccc;
+height:500px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ 
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+background-color:rgba(255,221,187,0.1);
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+   background-image: linear-gradient(to bottom right,#ffffff,#F88017	);
+
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover { background-image: linear-gradient(to bottom right,#F88017ca,#ffffffca);}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.flex-container{ display: flex;}
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+    text-align:center;
+   }
+}
+
+
+
+h3{padding:10px;}
+
+
+
+
+
+
+</style>
+</head>
+<body>
+
+
+
+<ul class="sidenav">
+  <li><a  href="Home.html">Home</a></li>
+  <li><a href="types of food.html">types of food</a></li>
+  <li><a href="The Importance Of Food.html">The importance of food</a></li>
+ <li class="dropdown">
+  <a href="javascript:void(0)" class="dropbtn">Most popular food </a>
+  <div class="dropdown-content">
+  <a  href="#d1">USA</a>
+ <a href="#d2">Asia</a>
+  <a href="#d3">Europe</a>
+<a href="#d4">Australia</a>
+ <a href="#d5">Africa</a>
+  <a href="#d6">south-america</a>
+  </div>
+</li>
+<li><a href="Malnutrition.html">Malnutrition</a></li>
+  <li><a href="sign in.html">Sign In</a></li>
+</ul>
+
+<div class="content">
+
+
+
+
+<br><br>
+
+<h3 id="d1">Most Popular Food in USA</h3>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="2.jpg">
+      <img src="2.jpg" alt="Buttered Popcorn, USA" width="600" >
+    </a>
+    <div class="desc">Buttered Popcorn, USA:Corn is the backbone of the industrial world and corn or buttered popcorn, both salty and sweet, is a favorite of many.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="3.jpg">
+      <img src="3.jpg" alt="Hot dogs" width="600" >
+    </a>
+    <div class="desc"> Hot dogs:It is cooked sausage, grilled or steamed and served in a hot dog bun .
+Although the origin of the hot dog is from Germany.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="4.jpg">
+      <img src="4.jpg" alt="hamburger" width="600" >
+    </a>
+    <div class="desc">hamburger:Hamburger is considered one of the traditional foods in America and the most popular is the most popular hamburger is the hamburger with cheese
+It is a piece of meat, to which tomatoes, lettuce, pickles, onions and sometimes cheddar cheese are added, and it is served in its own round bread.</div>
+  </div>
+</div>
+
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="5.jpg">
+      <img src="5.jpg" alt="fried chicken" width="600" >
+    </a>
+    <div class="desc">fried chicken:This dish is considered one of the fast food in America.
+This dish consists of chicken pieces covered in a layer of breadcrumbs and then fried in abundant oil. The chicken becomes crunchy.</div>
+  
+</div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="6.jpg">
+      <img src="6.jpg" alt="fajita" width="600" >
+    </a>
+    <div class="desc">Fajitas are one of the most famous Mexican dishes spread in America and all over the world. And this dish has a very special flavour.
+The most famous types of fajitas are meat fajita and chicken fajita. Both are prepared with the same ingredients and the same method.</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="7.jpg">
+      <img src="7.jpg" alt="Clam Chowder" width="600" >
+    </a>
+    <div class="desc">Clam Chowder:The soup consists of oysters, diced potatoes, onions, celery, and slices of carrots.</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="8.jpg">
+      <img src="8.jpg" alt="Hominy Grits" width="600" >
+    </a>
+    <div class="desc"> Hominy Grits:It is grits or corn that is ground and then cooked with butter or lard.
+It is a popular breakfast dish instead of oatmeal.</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="9.jpg">
+      <img src="9.jpg" alt=" Enchiladas" width="600" >
+    </a>
+    <div class="desc"> Enchiladas:They are tortilla rolls stuffed with cheese, meat, chicken, seafood, or vegetables.
+Decorate from above with a layer of hot sauce.</div>
+  
+</div>
+</div>
+
+
+
+<br>
+<hr><hr><hr>
+
+
+
+
+
+
+
+
+<h3 id="d2">Most Popular Food in Asia</h3>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="10.jpg">
+      <img src="10.jpg" alt="Chili Crab in Singapore" width="600" >
+    </a>
+    <div class="desc">Chili Crab in Singapore: Stir-fried crab in a tomato based, sweet, savoury and slightly hot chilli sauce. Break into its claws with crab crackers and suck at the flesh. The popular crab choice in Singapore is the mud crab but expect all sorts of shapes and sizes.</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="11.jpg">
+      <img src="11.jpg" alt="MOMOS IN THE HIMALAYAS" width="600" >
+    </a>
+    <div class="desc">MOMOS IN THE HIMALAYAS: With obvious Chinese influences these Himalayan meat and/or veg dumplings make a great fast food snack to-go. While best known for Nepali origins momos are now common on all sides of Himalayan borders through Tibet, Bhutan and India.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="12.jpg">
+      <img src="12.jpg" alt="ROTI PRATA IN SINGAPORE" width="600" >
+    </a>
+    <div class="desc">ROTI PRATA IN SINGAPORE: Better known for origins in India this humble pan-fried flatbread followed old colonial trade routes to Singapore, my new favourite city to share this simple food staple.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="13.jpg">
+      <img src="13.jpg" alt="AIS KACANG IN MALAYSIA" width="600" >
+    </a>
+    <div class="desc">AIS KACANG IN MALAYSIA: Shaved ice is common with Asian desserts but for me it is best found in Malaysia with AIS Kacang, a mix of shaved ice and variations of fruit, beans, icecreams and syrups.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="14.jpg">
+      <img src="14.jpg" alt="NOODLE SOUPS IN CHINA" width="600" >
+    </a>
+    <div class="desc">NOODLE SOUPS IN CHINA: I find an exciting new world of noodle soups in China with meaty toppings and fascinating local flavours. 
+
+</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="15.jpg">
+      <img src="15.jpg" alt="SUSHI IN JAPAN" width="600" >
+    </a>
+    <div class="desc">SUSHI IN JAPAN: Sushi is ‘cooked vinegared rice, topped with ingredients’. Some of the popular ingredients in the bright and beautiful world of sushi includes thin cuts of fresh fish, caviar and fish eggs and wraps of seaweed.
+
+</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="16.jpg">
+      <img src="16.jpg" alt="FISH HEAD CURRY IN SINGAPORE" width="600" >
+    </a>
+    <div class="desc">FISH HEAD CURRY IN SINGAPORE: A uniquely Singapore dish reflecting both Indian and Chinese cultures of this food-obsessed city. A hot South-Indian style curry brought together with the Chinese obsession for red snapper fish head.
+
+</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="17.jpg">
+      <img src="17.jpg" alt=" BUN CHA IN VIETNAM" width="600" >
+    </a>
+    <div class="desc"> BUN CHA IN VIETNAM: Fatty grilled pork (Cha) served with rice noodles (Bun), fresh picks of herbs and a salty, sweet and slightly hot dipping sauce (nuoc cham).
+
+</div>
+  </div>
+</div>
+<hr><hr><hr>
+<h3 id="d3">Most Popular Food in Europe</h3>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="18.jpg">
+      <img src="18.jpg" alt=" Arancini in Italy.   " width="600" >
+    </a>
+    <div class="desc">Arancini in Italy:Though not as popular as pasta and pizza in Italy, these little fried rice balls are seriously to die for.</div>
+</div>
+</div>
+
+
+
+
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="19.jpg">
+      <img src="19.jpg" alt=" Pierogi in Poland" width="600" >
+    </a>
+    <div class="desc">Pierogi in Poland : Popular in many Eastern European countries, Pierogi are dumplings made of dough usually filled with potatoes, ground meat, sauerkraut, cheese, or fruit.
+</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="20.jpg">
+      <img src="20.jpg" alt=" Cheese fondue in Switzerland.  " width="600" >
+    </a>
+    <div class="desc">Cheese fondue in Switzerland : Cheese lovers, get ready. Traditional Swiss fondue is made with Gruyère and Emmenthal cheese with an added kick provided by a glug of white wine and kirsch. </div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="21.jpg">
+      <img src="21.jpg" alt=" Ćevapi in Bosnia and Herzegovina.  " width="600" >
+    </a>
+    <div class="desc">Ćevapi in Bosnia and Herzegovina: Now listen up. If you go for anything on this list, go for these.Ćevapi are grilled skinless ground beef sausages usually served with flatbread, onions, creamy kajmak cheese and ajvar (a roast red pepper spread).
+  </div>
+</div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="22.jpg">
+      <img src="22.jpg" alt="Goulash in Hungary.  " width="600" >
+    </a>
+    <div class="desc">Goulash in Hungary: Everyone has probably at least heard of goulash if not tried it, but if you find yourself even close to (being) Hungary, you need to taste this dish when prepared in the traditional Hungarian way.  Read: the ultimate comfort food.
+
+</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="23.jpg">
+      <img src="23.jpg" alt="Currywurst in Germany." width="600" >
+    </a>
+    <div class="desc">Currywurst in Germany:This is exactly what it sounds like – a bit strange. But don’t knock it ‘till you try it. This German fast food staple consists of fried pork sausage (Bratwurst), usually cut into slices, seasoned with curry ketchup and served with French fries. Yum.
+</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="24.jpg">
+      <img src="24.jpg" alt=" Potica in Slovenia.   " width="600" >
+    </a>
+    <div class="desc">Potica in Slovenia:One of the best dessert foods on this list, this traditional nut roll is made of sweet dough that is rolled out very thinly, spread with a paste made from ground nuts and a sweetener like honey, rolled up into a log and baked.  </div>
+</div>
+</div>
+
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="1.jpg">
+      <img src="1.jpg" alt=" Moussaka in Greece." width="600" >
+    </a>
+    <div class="desc">Moussaka in Greece : Common in the Eastern Mediterranean, Middle East and Balkana, this dish is built on either potatoes or aubergines, layered with ground meat and either a tomato or béchamel sauce, sometimes topped with cheese and then baked in the oven.</div>
+  </div>
+</div>
+
+<hr><hr><hr>
+<h3 id="d4">Most Popular Food in Australia</h3>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="25.jpg">
+      <img src="25.jpg" alt=" Hot Jam Donuts" width="600" >
+    </a>
+    <div class="desc">Hot Jam Donuts:Hot jam donut is an Australian specialty hailing from Melbourne, which is why it's also affectionately known as the Melbourner. Unlike most other donuts, these ones are always served hot, usually from the window of a street food van at the Queen Vic Market.
+
+</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="26.jpg">
+      <img src="26.jpg" alt=" Continental Roll
+" width="600" >
+    </a>
+    <div class="desc">Continental Roll:Continental roll is an Australian sandwich influenced by Italian cuisine. The sandwich consists of a crusty and chewy bread roll filled with cheese, Italian cold cuts and a variety of condiments.
+</div>
+  </div>
+</div>
+
+
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="27.jpg">
+      <img src="27.jpg" alt="Fritz and Sauce " width="600" >
+    </a>
+    <div class="desc">Fritz and Sauce:Fritz and sauce is a classic Australian sandwich that's especially beloved by children. It consists of two slices of bread, a bit of tomato sauce, and fritz. Fritz is a type of cheap sausage meat that's believed to contain beef, lamb, and pork trimmings, starch, flour, and seasonings.
+</div>
+  </div>
+</div>
+
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="28.jpg">
+      <img src="28.jpg" alt=" Cheese and Bacon Roll" width="600" >
+    </a>
+    <div class="desc">Cheese and Bacon Roll:These fluffy rolls are a favorite of numerous children throughout Australia. The dough is sprinkled with bits of bacon and cheese, then baked in an oven until the cheese melts and the rolls are golden in color. For a filling meal, it is recommended to serve cheese and bacon rolls with a bowl of soup.
+</div>
+  </div>
+</div>
+
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="29.jpg">
+      <img src="29.jpg" alt="Dagwood Dog " width="600" >
+    </a>
+    <div class="desc">Dagwood Dog:Dagwood dog is a popular Australian festival staple consisting of a hot dog on a stick that is dipped in batter, then deep-fried in hot oil. Before serving, the tip of Dagwood dog is typically dipped in tomato sauce, making it even tastier.
+</div>
+  </div>
+</div>
+
+
+
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="30.jpg">
+      <img src="30.jpg" alt="Barbecue Snags " width="600" >
+    </a>
+    <div class="desc">Barbecue Snags:Barbecue snags are thick Australian sausages, usually with a mild flavor and made with beef, pork, garlic, and onions. 
+</div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="31.jpg">
+      <img src="31.jpg" alt="Pie Floater " width="600" >
+    </a>
+    <div class="desc">Pie Floater:A pie floater is an Australian dish that is most commonly consumed in Adelaide and Sydney. It consists of a traditional Australian meat pie that is usually submerged upside-down in green pea soup.
+</div>
+  </div>
+</div>
+
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="32.jpg">
+      <img src="32.jpg" alt="Australian Barbecue " width="600" >
+    </a>
+    <div class="desc">Australian Barbecue:The Australians are well-known for their barbecue prowess, and most households have some sort of a barbecue. The prime candidates for Australian barbecue include sausages, prawns, and lamb, followed by pork, chicken, emu, and even kangaroo meat.
+</div>
+  </div>
+</div>
+
+<hr><hr><hr>
+<h3 id="d5">Most Popular Food in Africa</h3>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="33.jpg">
+      <img src="33.jpg" alt=" Fekkas" width="600" >
+    </a>
+    <div class="desc">Fekkas:These traditional Moroccan twice-baked cookies come in both sweet and savory versions. They are prepared with shortbread or yeasted dough that is usually enriched with orange blossom water, aniseed, or citrus zest, as well as toasted nuts and dried fruit such as almonds, walnuts, raisins, pistachios, or sesame seeds.
+</div>
+</div>
+</div>
+
+
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="34.jpg">
+      <img src="34.jpg" alt=" Ogbono Soup" width="600" >
+    </a>
+    <div class="desc">Ogbono Soup:Ogbono is a traditional Nigerian soup made with a combination of ogbono seeds, red palm oil, onions, stock, seasoning cubes, leafy vegetables such as spinach, pumpkin leaves, or bitterleaf, and assorted meat and fish such as beef, tripe, shrimp, and crayfish.</div>
+</div>
+</div>
+
+
+
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="35.jpg">
+      <img src="35.jpg" alt="Fricassee
+ " width="600" >
+    </a>
+    <div class="desc">Fricassee:Fricassee is a traditional Tunisian sandwich that's packed with flavor, but also with lots of calories. The base is made with flour, eggs, oil, salt, water, and yeast, and it is then shaped into round or elongated rolls which are fried in hot oil and filled with tuna, hummus, boiled eggs, capers, olives, harissa, and boiled potatoes.
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="36.jpg">
+      <img src="36.jpg" alt="Banga Soup " width="600" >
+    </a>
+    <div class="desc">Banga Soup:Banga or ofe akwu is a flavorful Nigerian soup made with palm fruit, beef or dried fish, vegetables, and seasonings such as salt and chili pepper. The soup is traditionally paired with various fufu dishes</div>
+</div>
+</div>
+
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="37.jpg">
+      <img src="37.jpg" alt=" Banga Soup" width="600" >
+    </a>
+    <div class="desc">Banga Soup:Banga or ofe akwu is a flavorful Nigerian soup made with palm fruit, beef or dried fish, vegetables, and seasonings such as salt and chili pepper. The soup is traditionally paired with various fufu dishes. The name of the dish is derived from two words: ofe, meaning soup or stew, and akwu, meaning palm fruit.
+
+
+</div>
+</div>
+</div>
+
+
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="38.jpg">
+      <img src="38.jpg" alt=" Githeri" width="600" >
+    </a>
+    <div class="desc">Githeri:Githeri is a Kenyan staple food consisting of beans and maize that are stewed with onions, tomatoes, and sometimes potatoes or meat chunks. The stew is often flavored with cumin, turmeric, or chili powder. It is traditionally served on its own, although it can be served with rice or crusty bread on the side.</div>
+</div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="39.jpg">
+      <img src="39.jpg" alt=" Shiro" width="600" >
+    </a>
+    <div class="desc">Shiro:Shiro is an Ethiopian stew made with chickpeas or broad beans as main ingredients, along with garlic, onions, ginger, tomatoes, and chili peppers. The chickpeas give this stew a nice texture and nutty flavor, but they can be replaced by shiro powder, which is a combination of chickpea flour and various spices.</div>
+</div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="40.jpg">
+      <img src="40.jpg" alt=" Rechta" width="600" >
+    </a>
+    <div class="desc">Rechta:Rechta is a traditional Algerian dish consisting of thin and flat noodles and chicken sauce. The noodles are made with a combination of flour, salt, water, and ghee, while the sauce is made with chicken pieces, onions, garlic, oil, chickpeas, ras el hanout, cinnamon, turnips, potatoes, and zucchini.</div>
+</div>
+</div>
+<hr><hr><hr>
+<h3 id="d6">Most Popular Food in south-america</h3>
+
+
+
+
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="41.jpg">
+      <img src="41.jpg" alt="Ceviche de pulpo" width="600" >
+    </a>
+    <div class="desc">Ceviche de pulpo:Ceviche de pulpo is a type of ceviche using octopus as the star ingredient. Commonly found along the Peruvian coast, this appetizer is ideal for those who don’t like the fishy texture and flavors of standard ceviche.</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="42.jpg">
+      <img src="42.jpg" alt="Picante de pollo
+" width="600" >
+    </a>
+    <div class="desc">Picante de pollo:Picante de pollo is a spicy Bolivian dish made with pieces of chicken cooked in a combination of onions, potatoes, tomatoes, aji amarillo chilis, peas, and chicken stock.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="43.jpg">
+      <img src="43.jpg" alt="Encebollado
+" width="600" >
+    </a>
+    <div class="desc">Encebollado:Encebollado is the national dish of Ecuador, a fish soup that is characterized by a large amount of onions. Very useful in curing hangovers, the dish is made with fresh tuna meat, cassava root, tomatoes, onions, coriander, and various spices.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="44.jpg">
+      <img src="44.jpg" alt="Pirão" width="600" >
+    </a>
+    <div class="desc">Pirão:is the quintessential Brazilian side dish which resembles a watered-down porridge or polenta. It appears in numerous varieties throughout the country, but it is mainly prepared by stirring manioc flour in various flavorful meat or seafood broths.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="45.jpg">
+      <img src="45.jpg" alt="Arrumadinho" width="600" >
+    </a>
+    <div class="desc">Arrumadinho:Arrumadinho is a complex Brazilian dish that is usually served as an appetizer. The dish is a combination of four elements that are neatly organized and served together as a complete meal. </div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="46.jpg">
+      <img src="46.jpg" alt="Sopa de mondongo:Sopa de mondongo is a term that is widely used all across Central and South America when referring to a hearty tripe and vegetable soup. The star of the dish is beef or pork tripe, the rather tough edible part of animal stomach which is cut into smaller pieces and cooked with other ingredients in a flavorful broth.
+" width="600" >
+    </a>
+    <div class="desc">Sopa de mondongo:Sopa de mondongo is a term that is widely used all across Central and South America when referring to a hearty tripe and vegetable soup. The star of the dish is beef or pork tripe, the rather tough edible part of animal stomach which is cut into smaller pieces and cooked with other ingredients in a flavorful broth.
+</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="47.jpg">
+      <img src="47.jpg" alt="Flan de coco" width="600" >
+    </a>
+    <div class="desc">Flan de coco:Flan de coco or coconut flan is a delicate dessert that is popular in Colombia, Costa Rica, and parts of the Caribbean. It is typically made with eggs, coconut milk, condensed milk, cream, vanilla extract, and flaked coconut.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="48.jpg">
+      <img src="48.jpg" alt="Pancho" width="600" >
+    </a>
+    <div class="desc">Pancho:Pancho is an Uruguayan hot dog made with a sausage in a pan de Viena bun. The sausage often sticks out from the bun as it is usually longer than pan de Viena. Experts say that the pancho is all about the toppings, which vary depending on the region and vendors.</div>
+  </div>
+</div>
+
+<hr><hr><hr>
+
+
+</div>
+</body>
+</html>
