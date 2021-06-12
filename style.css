@@ -10,7 +10,7 @@ ul.sidenav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-     background-image: linear-gradient(to bottom right,#F88017,#ffffff		);
+     background-image: linear-gradient(to bottom right,#F88017,#ffffff);
 
  
   top: 0;
@@ -30,7 +30,7 @@ ul.sidenav li a {
 }
 
 ul.sidenav li a:hover:not(.active) {
-    background-image: linear-gradient(to bottom right,#ffffffca,#F88017ca	);
+    background-image: linear-gradient(to bottom right,#ffffffca,#F88017ca);
 
 }
 .active{ background-image: linear-gradient(to bottom right,#ffffffca,#F88017ca	);}
