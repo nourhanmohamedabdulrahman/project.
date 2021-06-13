@@ -9,23 +9,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-<script>
-    function validate(){
-             var contactForm = document.getElementById("form");
-               var check = true;
-               var password = document.getElementById("pass").value;
-               var phone = document.getElementById("phone").value;
-                if(password == "")
-                {   alert('Password is required !');
-                check= false;  }    
-                   if (!password.match(/^[A-Z](?=.*[^@#!])(?=.*[^a-zA-Z0-9])(?!.*\s).{7}$/))
-                   {   alert("Password is Not Valid, It must contain 8 characters: start with uppercase then there must be one lowercase, one number and one special character (@,#,!) at least");   
-                   check=false;  }
-                      if (!phone.match(/^[0][1][0-9]{9}$/))
-                   {   alert("Phone is not valid");
-                      check=false;  }
-    }
-</script>
 
 <style>
 body {margin: 0;
@@ -124,7 +107,7 @@ width:150px;  height:150px; border-radius:75px;}
 <div style="display:inline-block; text-shadow: 2px 2px 5px #f8a81b;" >Hi!
 Let's create an account so fill in all the blanks, Please.</div>
 <br><br>
-  <form  id="form" action="page.html" onsubmit="return validate()">
+   <form id="form" action="index.html" onsubmit="return validate()">
 
   <div class="row">
     <div class="col-25">
@@ -208,5 +191,29 @@ Let's create an account so fill in all the blanks, Please.</div>
 </div>
 </div>
 
+    
+    
+    <script>
+    function validate(){
+             var contactForm = document.getElementById("form");
+               var check = true;
+               var password = document.getElementById("pass").value;
+               var phone = document.getElementById("phone").value;
+                if(password == "")
+                {   alert('Password is required !');
+                check= false;  }    
+                   if (!password.match(/^[A-Z](?=.*[^@#!])(?=.*[^a-zA-Z0-9])(?!.*\s).{7}$/))
+                   {   alert("Password is Not Valid, It must contain 8 characters: start with uppercase then there must be one lowercase, one number and one special character (@,#,!) at least");   
+                   check=false;  }
+                   
+                      if (!phone.match(/^[0][1][0-9]{9}$/))
+                   {   alert("Phone is not valid");
+                      check=false;  }
+    
+    return check;
+    }
+</script>
+    
+    
 </body>
 </html>
